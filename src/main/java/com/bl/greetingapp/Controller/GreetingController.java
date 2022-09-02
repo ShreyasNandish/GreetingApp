@@ -19,7 +19,7 @@ public class GreetingController {
         return "Success";
     }
 
-    @PostMapping("/greeting/post")
+    @PostMapping("/greeting/post1")
     public Greeting postGreeting(@RequestBody Greeting greeting){
         return greetingService.createGreeting(greeting);
     }
